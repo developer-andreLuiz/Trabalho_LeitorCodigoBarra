@@ -120,14 +120,13 @@ namespace Trabalho_LeitorCodigoBarra
                 {
                     if (Texto.Length > 8)
                     {
-                       
-                        Texto = string.Empty;
                         try
                         {
                             serialPort.Write("Evento");
                         }
                         catch { }
                     }
+                    Texto = string.Empty;
 
                 }
 
