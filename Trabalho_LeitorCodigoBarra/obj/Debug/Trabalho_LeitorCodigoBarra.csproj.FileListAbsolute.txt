@@ -33,3 +33,14 @@ B:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_
 B:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.csproj.CopyComplete
 B:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.exe
 B:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.pdb
+B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\bin\Debug\Trabalho_LeitorCodigoBarra.exe.config
+B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\bin\Debug\Trabalho_LeitorCodigoBarra.exe
+B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\bin\Debug\Trabalho_LeitorCodigoBarra.pdb
+B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.csprojAssemblyReference.cache
+B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.FrmMain.resources
+B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.Properties.Resources.resources
+B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.csproj.GenerateResource.cache
+B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.csproj.CoreCompileInputs.cache
+B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.csproj.CopyComplete
+B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.exe
+B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.pdb
