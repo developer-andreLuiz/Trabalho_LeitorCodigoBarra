@@ -44,3 +44,18 @@ B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\T
 B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.csproj.CopyComplete
 B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.exe
 B:\Git\Trabalho_LeitorCodigoBarra - Copia\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.pdb
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\bin\Debug\Trabalho_LeitorCodigoBarra.exe.config
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\bin\Debug\Trabalho_LeitorCodigoBarra.exe
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\bin\Debug\Trabalho_LeitorCodigoBarra.pdb
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.FrmMain.resources
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.Properties.Resources.resources
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.View.FrmProduto.resources
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.View.FrmRegistro.resources
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.csproj.GenerateResource.cache
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.csproj.CoreCompileInputs.cache
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.csproj.CopyComplete
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.exe
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.pdb
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\bin\Debug\System.Data.SQLite.dll
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\bin\Debug\System.Data.SQLite.xml
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Debug\Trabalho_LeitorCodigoBarra.csproj.AssemblyReference.cache
