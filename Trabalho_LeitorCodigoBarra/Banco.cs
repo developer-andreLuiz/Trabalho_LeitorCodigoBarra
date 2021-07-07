@@ -11,7 +11,7 @@ namespace Trabalho_LeitorCodigoBarra
 {
     class Banco
     {
-        protected static SQLiteConnection conexao { get; } = new SQLiteConnection("Data Source = Banco.db");
+        protected static SQLiteConnection conexao { get; } = new SQLiteConnection("Data Source=c:\\Leitor\\Banco.db;Version=3");
         public static void AbrirConexao()
         {
             if (conexao.State == ConnectionState.Closed)

@@ -37,52 +37,52 @@ namespace Trabalho_LeitorCodigoBarra
         {
             
 
-            if (txt.Equals("D0"))
+            if (txt.Equals("D0") || txt.Equals("NumPad0"))
             {
                 txt = "0";
                 Texto += txt;
             }
-            if (txt.Equals("D1"))
+            if (txt.Equals("D1") || txt.Equals("NumPad1"))
             {
                 txt = "1";
                 Texto += txt;
             }
-            if (txt.Equals("D2"))
+            if (txt.Equals("D2") || txt.Equals("NumPad2"))
             {
                 txt = "2";
                 Texto += txt;
             }
-            if (txt.Equals("D3"))
+            if (txt.Equals("D3") || txt.Equals("NumPad3"))
             {
                 txt = "3";
                 Texto += txt;
             }
-            if (txt.Equals("D4"))
+            if (txt.Equals("D4") || txt.Equals("NumPad4"))
             {
                 txt = "4";
                 Texto += txt;
             }
-            if (txt.Equals("D5"))
+            if (txt.Equals("D5") || txt.Equals("NumPad5"))
             {
                 txt = "5";
                 Texto += txt;
             }
-            if (txt.Equals("D6"))
+            if (txt.Equals("D6") || txt.Equals("NumPad6"))
             {
                 txt = "6";
                 Texto += txt;
             }
-            if (txt.Equals("D7"))
+            if (txt.Equals("D7") || txt.Equals("NumPad7"))
             {
                 txt = "7";
                 Texto += txt;
             }
-            if (txt.Equals("D8"))
+            if (txt.Equals("D8") || txt.Equals("NumPad8"))
             {
                 txt = "8";
                 Texto += txt;
             }
-            if (txt.Equals("D9"))
+            if (txt.Equals("D9") || txt.Equals("NumPad9"))
             {
                 txt = "9";
                 Texto += txt;
@@ -93,7 +93,11 @@ namespace Trabalho_LeitorCodigoBarra
         }
         void FormatarPalavraChave(string txt)
         {
-            palavraChave += txt;
+            if (txt.Equals("Back") == false)
+            {
+                palavraChave += txt;
+            }
+          
         }
         void Cancelar()
         {
@@ -124,8 +128,8 @@ namespace Trabalho_LeitorCodigoBarra
             //Iniciar com o windows
             try
             {
-                RegistryKey reg = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Run", true);
-                reg.SetValue("Leitor Codigo Barra", Application.ExecutablePath.ToString());
+                //RegistryKey reg = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Run", true);
+                //reg.SetValue("Leitor Codigo Barra", Application.ExecutablePath.ToString());
             }
             catch { }
 
@@ -134,6 +138,7 @@ namespace Trabalho_LeitorCodigoBarra
         {
             if (kEvent.ToString().Equals("KeyUp") == false)
             {
+               
                 Formatar(key.ToString());
                 FormatarPalavraChave(key.ToString());
                 if (key.ToString().Equals("Return"))
@@ -141,6 +146,8 @@ namespace Trabalho_LeitorCodigoBarra
                     bool cadastrado = false;
                     foreach (var item in ListaProdutos)
                     {
+                        
+                        
                         if (item.codigo.Equals(Texto))
                         {
                             cadastrado = true;
@@ -159,20 +166,10 @@ namespace Trabalho_LeitorCodigoBarra
                            
                         }
                     }
-
-
-
-
                     if (Texto.Length > 7 && cadastrado==false)
                     {
                         try { serialPort.Write("Evento");} catch { }
                     }
-                    
-                  
-                    
-                    
-                    
-                    
                     if (palavraChave.Equals("APARECERReturn"))
                     {
                         this.Show();
@@ -181,9 +178,35 @@ namespace Trabalho_LeitorCodigoBarra
                     }
                     Texto = string.Empty;
                     palavraChave = string.Empty;
-
                 }
+                if (key.ToString().Equals("Add"))//Sinal de +
+                {
+                    Texto = string.Empty;
+                    palavraChave = string.Empty;
+                }
+                if (key.ToString().Equals("Back"))//backspace
+                {
+                    if (Texto.Length > 1)
+                    {
+                        int novoTamanho = Texto.Length - 1;
+                        Texto = Texto.Substring(0,novoTamanho);
+                    }
+                    else
+                    {
+                        Texto = string.Empty;
+                    }
                 
+                    if (palavraChave.Length > 1)
+                    {
+                        int novoTamanho = palavraChave.Length - 1;
+                        palavraChave = palavraChave.Substring(0, novoTamanho);
+                    }
+                    else
+                    {
+                        palavraChave = string.Empty;
+                    }
+                }
+
             }
 
         }

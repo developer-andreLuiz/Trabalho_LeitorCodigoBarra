@@ -1,0 +1,7 @@
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Release\Trabalho_LeitorCodigoBarra.csproj.AssemblyReference.cache
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Release\Trabalho_LeitorCodigoBarra.FrmMain.resources
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Release\Trabalho_LeitorCodigoBarra.Properties.Resources.resources
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Release\Trabalho_LeitorCodigoBarra.View.FrmProduto.resources
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Release\Trabalho_LeitorCodigoBarra.View.FrmRegistro.resources
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Release\Trabalho_LeitorCodigoBarra.csproj.GenerateResource.cache
+D:\Git\Trabalho_LeitorCodigoBarra\Trabalho_LeitorCodigoBarra\obj\Release\Trabalho_LeitorCodigoBarra.csproj.CoreCompileInputs.cache

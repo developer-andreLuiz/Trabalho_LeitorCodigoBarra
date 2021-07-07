@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -198,8 +199,72 @@ namespace Trabalho_LeitorCodigoBarra.View
         }
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            Limpar();
-            InterfaceAbrirGravarCancelarDeletar();
+            //Limpar();
+            //InterfaceAbrirGravarCancelarDeletar();
+
+            #region Função de Importar
+            //List<string> ListaNome = new List<string>();
+            //List<string> ListaCodigo = new List<string>();
+            //String line;
+            //try
+            //{
+            //    //Pass the file path and file name to the StreamReader constructor
+            //    StreamReader sr = new StreamReader("C:\\Prov\\Nome.txt");
+            //    //Read the first line of text
+            //    line = sr.ReadLine();
+            //    //Continue to read until you reach end of file
+            //    while (line != null)
+            //    {
+            //        string[] txt = line.Split(' ');
+            //        ListaNome.Add(txt[0]);
+            //        //Read the next line
+            //        line = sr.ReadLine();
+            //    }
+            //    //close the file
+            //    sr.Close();
+            //    Console.ReadLine();
+            //}
+            //catch { }
+            //try
+            //{
+            //    //Pass the file path and file name to the StreamReader constructor
+            //    StreamReader sr = new StreamReader("C:\\Prov\\Codigo.txt");
+            //    //Read the first line of text
+            //    line = sr.ReadLine();
+            //    //Continue to read until you reach end of file
+            //    while (line != null)
+            //    {
+            //        string txt = "00" + line;
+            //        ListaCodigo.Add(txt);
+            //        //Read the next line
+            //        line = sr.ReadLine();
+            //    }
+            //    //close the file
+            //    sr.Close();
+            //    Console.ReadLine();
+            //}
+            //catch { }
+
+            //if (ListaNome.Count == ListaCodigo.Count)
+            //{
+            //    for (int i = 0; i < ListaNome.Count; i++)
+            //    {
+            //        Tb_produto_Model produto = new Tb_produto_Model();
+            //        produto.codigo = ListaCodigo[i];
+            //        produto.nome = ListaNome[i];
+            //        Banco.Tb_produto.Inserir(produto);
+
+
+
+            //    }
+
+            //    MessageBox.Show("Finalizado");
+
+
+
+
+            //}
+            #endregion
         }
         private void btnApagarTudo_Click(object sender, EventArgs e)
         {
